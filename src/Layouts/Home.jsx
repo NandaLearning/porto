@@ -14,6 +14,13 @@ const Home = () => {
           </Link>
           <br />a dedicated Fullstack Web Developer.
         </h1>
+      <div className='md:w-1/2 md:ml-10 flex items-center justify-center'>
+        <img
+          src='profile.png'
+          className='rounded-full border border-purple-700 md:h-96 md:w-64 h-96 w-64 hover:shadow-purple-700 shadow-lg duration-200'
+          alt='Profile'
+        />
+      </div>
 
         <h1 className='font-bold md:mt-10 text-2xl text-white'>Biography</h1>
         <p className='text-white text-xl mt-4'>
@@ -22,13 +29,6 @@ const Home = () => {
           mastering the art of web development has been evident throughout his
           learning journey.
         </p>
-      <div className='md:w-1/2 md:ml-10 flex items-center justify-center'>
-        <img
-          src='profile.png'
-          className='rounded-full border border-purple-700 md:h-96 md:w-64 h-96 w-64 hover:shadow-purple-700 shadow-lg duration-200'
-          alt='Profile'
-        />
-      </div>
 
         <div className='mt-7'>
           <h1 className='font-bold text-2xl text-white'>Let's Connect:</h1>
