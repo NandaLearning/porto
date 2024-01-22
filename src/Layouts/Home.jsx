@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Link } from 'react-router-dom';
-import CardDev from '../Components/cardDev/cardDev';
+import CardDev from '../Components/cardDev/CardDev';
 
 const Home = () => {
   return (
