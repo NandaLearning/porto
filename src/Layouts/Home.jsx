@@ -33,14 +33,12 @@ const Home = () => {
         </div>
       </div>
 
-      <div className='md:w-1/2 md:ml-10'>
-        <div className='flex items-center justify-center'>
-          <img
-            src='profile.png'
-            className='rounded-full border border-purple-700 md:h-96 md:w-64 h-96 w-64 hover:shadow-purple-700 shadow-lg duration-200'
-            alt='Profile'
-          />
-        </div>
+      <div className='md:w-1/2 md:ml-10 flex items-center justify-center'>
+        <img
+          src='profile.png'
+          className='rounded-full border border-purple-700 md:h-96 md:w-64 h-96 w-64 hover:shadow-purple-700 shadow-lg duration-200'
+          alt='Profile'
+        />
       </div>
 
       <div className='mt-14'>
