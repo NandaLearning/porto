@@ -1,6 +1,7 @@
 import React from 'react';
-import CardDev from '../Components/cardDev/cardDev';
+
 import { Link } from 'react-router-dom';
+import CardDev from '../Components/cardDev/cardDev';
 
 const Home = () => {
   return (
@@ -52,6 +53,7 @@ const Home = () => {
           <CardDev img='app.svg' title='App Developer' />
           <CardDev img='copy.svg' title='UI/UX'  />
           <CardDev img='devops.svg' title='DevOps'  />
+
         </div>
       </div>
     </div>
