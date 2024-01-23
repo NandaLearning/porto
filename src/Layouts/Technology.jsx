@@ -24,7 +24,7 @@ const Technology = () => {
   };
 
   return (
-    <div className='mx-10 p-4 mt-20'>
+    <div className='mx-10 p-4 mt-20' id='technology'>
       <h1 className=' text-4xl md:text-6xl text-white font-bold'>my <a className=' text-purple-700'>Technology</a> using</h1>
       <div className='mt-8 space-y-6 text-lg font-sans text-white'>
         <p>Search code snippet</p>

@@ -4,7 +4,7 @@ import CardDev from '../Components/cardDev/CardDev';
 
 const Home = () => {
   return (
-    <div className='p-10 mt-10 space-x-10'>
+    <div className='p-6 mt-10 ' id='home'>
       <h1 className='text-white font-bold text-2xl font-sans md:text-4xl'>
         Welcome to the world of digital creativity!<br />I am{' '}
         <Link to='/' className='text-purple-700 font-bold'>

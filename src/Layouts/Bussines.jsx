@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Bussines = () => {
   return (
-    <div className=' mt-40'>
+    <div className=' mt-40' id='bussines'>
       <div className=' text-center'>
         <h1 className=' text-4xl font-bold text-white'>Wellcome To</h1>
         <h1 className='  font-bold text-white text-4xl md:text-6xl'>My <a className=' text-purple-700'>Bussiness</a></h1>
