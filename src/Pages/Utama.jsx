@@ -9,12 +9,14 @@ import Bussines from '../Layouts/Bussines'
 
 const Utama = () => {
   return (
-    <div className=' h-[10000px] bg-gray-800 min-h-screen'>
+    <div className=' bg-gray-800 min-h-screen'>
         <Navbar/>
         <Home/>
         <Technology/>
         <Project/>
         <Bussines/>
+
+        <Footer/>
 
         <NavigateButton/>
         
